@@ -38,7 +38,7 @@ variable "acl" {
 }
 variable "bucket_prefix" {
     type        = string
-    description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix"
+    description = "(required since we are not using 'bucketique bucket name beginning with the specified prefix)"
     default     = "my-s3bucket-889900"
 }
 variable "tags" {
@@ -46,6 +46,7 @@ variable "tags" {
     description = "(Optional) A mapping of tags to assign to the bucket."
     default     = {
         environment = "DEV"
+        Name = "om"
         terraform   = "true"
     }
 }
