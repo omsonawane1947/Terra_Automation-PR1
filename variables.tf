@@ -39,7 +39,7 @@ variable "acl" {
 variable "bucket_prefix" {
     type        = string
     description = "(required since we are not using 'bucketique bucket name beginning with the specified prefix)"
-    default     = "my-s3bucket-889900"
+    default     = "my-s3bucket-88990077"
 }
 variable "tags" {
     type        = map
